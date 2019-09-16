@@ -12,7 +12,7 @@ OPEN aktif biasanya dikeluarkan oleh klien untuk memulai transaksi TCP dengan se
 
 # 2. For 
  Kode Program
-git add for.go
+git add . for.go
 
 For adalah proses mengulang-ulang eksekusi blok kode tanpa henti, selama kondisi yang dijadikan acuan terpenuhi. Biasanya disiapkan variabel untuk iterasi atau variabel penanda kapan perulangan akan diberhentikan
 
