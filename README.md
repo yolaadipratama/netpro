@@ -9,3 +9,10 @@ Dua transisi yang mengarah ke keadaan CONNECTION ESTABLISHED berhubungan dengan 
 kotak putus-putus dan memberi labelnya TUTUP aktif. Dua kotak lain (CLOSE_WAIT dan LAST_ACK) dikumpulkan dalam kotak putus-putus dengan label pasif TUTUP.
 Ketika OPEN pasif dikeluarkan oleh titik akhir, itu masuk ke negara LISTEN. Ini terjadi setiap kali server memulai proses daemon yang diharapkan untuk menunggu permintaan TCP yang masuk. Ketika TCP menerima flag SYN dalam status ini, ia akan memasuki proses jabat tangan 3-arah untuk pindah ke keadaan CONNECTION ESTABLISHED.
 OPEN aktif biasanya dikeluarkan oleh klien untuk memulai transaksi TCP dengan server yang diberikan. Mengikuti jalur hijau, seseorang dapat dengan jelas melihat jabat tangan 3 arah yang mengarah ke kondisi CONNECTION ESTABLISHED.
+
+# 2. For 
+ Kode Program
+git add for.go
+
+For adalah proses mengulang-ulang eksekusi blok kode tanpa henti, selama kondisi yang dijadikan acuan terpenuhi. Biasanya disiapkan variabel untuk iterasi atau variabel penanda kapan perulangan akan diberhentikan
+
